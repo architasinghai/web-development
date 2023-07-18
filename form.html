@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>DAY 2</title>
+    <style>
+        marquee{
+            color:cornflowerblue;
+            font-size:50px;
+            font-family:monospace;
+            font-style:italic;
+        }
+        img{
+            width:200px;
+            margin-left: 30%;
+            border: yellow;
+            border-style: solid;
+            border-width:10px;
+            border-radius:50%;
+            margin-top: -20%;
+            padding:0px;
+        }
+        body{
+            background-image: linear-gradient(gray,white);
+        }
+
+        .gen{
+            color:red !important;
+        }
+
+        #newgen{
+            color:blue;
+        }
+        #pad{
+            width: 40%;
+            background-color:aquamarine;
+            padding: 100px;
+        }
+    </style>   
+</head>
+<body>
+    <marquee direction="right">Archita</marquee>
+    <form action="mailto:archuuj24@gmail.com" method="POST" >
+        Name: <br>
+        <input type="text" name="Name" placeholder="enter your name" required><!--if u want a predefine name then write value="archita"-->
+        <br><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="male"  id="gender-m">
+        <label for="gender-m" class="gen" id="newgen">Male</lable>
+        <input type="radio" name="gender" value="female"  id="gender-f">
+        <label for="gender-f" class="gen">Female</lable>
+        <br><br>
+        Skills:
+        <br><br>
+        <input type="Checkbox" name="skills" id="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="Checkbox" name="skills" id="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+        <br><br>
+        <input type="submit" name="Submit" valur="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <br><br>
+    List of students:
+    <select name="list of students">
+        <option>--Select a student--</option>
+        <option>lokesh</option>
+        <option>mohit</option>
+        <option>karan</option><!--for by default selected write selected keyword before name -->
+        <option>tanay</option>
+    </select>
+    <br><br>
+    <img src="https://th.bing.com/th/id/OIP.clkUw15wdbUpEMKdtKqv_AHaEK?pid=ImgDet&rs=1">
+    <div id="pad">
+        <p style="background-color: blueviolet;">Apple</p>
+    </div>
+</body>
+</html>
+<!--learn from mozilla site-->
+<!--CSS is case sensitive language.
+types-> 1. inline styling
+        2. internalstyling
+        3. external stylesheets. -->
+<!--free code camp p htlm basics padho
+    for video resources go to youtube and search net ninjas
+    for cc the best website is css tricks.com padding
+    the new boston youtube channel for html and css-->

@@ -1,0 +1,20 @@
+.parent > div{
+    background-color: darkseagreen;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /*justify-content: space-around;
+    align-items: flex-end;*/
+}
+
+#five{
+    flex-grow: 5;
+}
