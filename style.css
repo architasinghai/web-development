@@ -1,0 +1,20 @@
+#main-head
+{
+    height: calc(100vh - 54px);
+    background-image: url('https://th.bing.com/th/id/OIP.H5MT3TdfY-gW3L14QzjI5AHaFj?w=229&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-size: cover;
+}
+
+.page-section{
+    padding: 6rem 0;;
+}
+
+.section-heading{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.section-subheading
+{
+    margin-bottom:4rem;
+}
